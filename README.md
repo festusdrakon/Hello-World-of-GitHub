@@ -1,2 +1,2 @@
 # Hello-World-of-GitHub
-figuringit out
+The first scripts I wrote to increase the functionality of my Nokia E5 using the PyS60 library for Symbian OS.
