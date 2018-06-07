@@ -4,7 +4,6 @@ import graphics, e32, time
 
 print "looks like this is working"
 
-
 def screenshot():
 	img = graphics.screenshot()
 	img.save(u"E:\\Images\Screenshot.png")
