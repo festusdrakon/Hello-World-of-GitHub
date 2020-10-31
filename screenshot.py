@@ -6,7 +6,8 @@ print "looks like this is working"
 
 def screenshot():
 	img = graphics.screenshot()
-	img.save(u"E:\\Images\Screenshot.png")
+	imgName = u"E:\\Images\\Screenshot" + str(int(time.time)) + ".png"
+	img.save(imgName)
 
 timer = e32.Ao_timer()
 interval = 7.0
